@@ -11,9 +11,9 @@ Element.prototype.addClass = function(className) {
 
 Element.prototype.removeClass = function(className) {
   if (this.classList)
-  this.classList.remove(className);
-else
-  this.className = this.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+    this.classList.remove(className);
+  else
+    this.className = this.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
 };
 
 Element.prototype.hasClass = function(className) {
@@ -24,7 +24,10 @@ Element.prototype.hasClass = function(className) {
 };
 
 hamburger.addEventListener('click', function() {
-  body.hasClass('nav-open') ? body.removeClass('nav-open') : body.addClass('nav-open');
+  if (body.hasClass('nav-open'))
+    body.removeClass('nav-open');
+  else
+    body.addClass('nav-open');
 });
 
 hamAssist.addEventListener('click', function() {
