@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Example content
+summary: Some examples of content that you can use.
 ---
 
 
