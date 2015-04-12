@@ -14,11 +14,6 @@ $font-slab: 'Share Tech Mono';
 @import '_syntax';
 @import '_hyde';
 
-html {
-  font-family: $font-main;
-  font-size: 16px;
-}
-
 @import '_sidebar';
 @import '_post-list';
 
