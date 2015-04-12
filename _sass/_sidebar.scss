@@ -1,0 +1,17 @@
+.sidebar {
+  color: $color-black;
+  background-color: $color-white;
+  a {
+    color: $color-black;
+  }
+  h1 {
+    font-family: $font-slab;
+    font-size: 2em;
+    text-align: center;
+    line-height: 2em;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}

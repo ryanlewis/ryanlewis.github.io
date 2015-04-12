@@ -27,3 +27,6 @@ twitter:
 
 github:
   profile:        https://github.com/ryanlewis
+
+sass:
+    style:        :compressed

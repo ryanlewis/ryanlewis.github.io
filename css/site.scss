@@ -1,0 +1,24 @@
+---
+---
+
+//colors
+$color-black: #000;
+$color-white: #fff;
+$color-grey: #999;
+
+//fonts
+$font-main: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-slab: 'Share Tech Mono';
+
+@import '_poole';
+@import '_syntax';
+@import '_hyde';
+
+html {
+  font-family: $font-main;
+  font-size: 15px;
+}
+
+@import '_sidebar';
+@import '_post-list';
+
