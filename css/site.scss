@@ -10,10 +10,25 @@ $color-grey: #999;
 $font-main: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-slab: 'Share Tech Mono';
 
+//mobile breakpoint
+$bp: 768px;
+
 @import '_poole';
 @import '_syntax';
 @import '_hyde';
 
+.logo {
+  width: 200px;
+  height: 200px;
+  @media (max-width: #{$bp - 1px}) {
+    position: fixed;
+    top: 15px;
+    right: 60px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
 @import '_sidebar';
 @import '_post-list';
-
+@import '_mobile-nav';

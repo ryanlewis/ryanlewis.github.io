@@ -105,7 +105,7 @@ a.sidebar-nav-item:focus {
  * contents to the bottom of the sidebar in tablets and up.
  */
 
-@media (min-width: 48em) {
+@media (min-width: $bp) {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
@@ -126,7 +126,7 @@ a.sidebar-nav-item:focus {
   padding-bottom: 4rem;
 }
 
-@media (min-width: 48em) {
+@media (min-width: $bp) {
   .content {
     max-width: 38rem;
     margin-left: 20rem;

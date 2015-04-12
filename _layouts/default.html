@@ -5,13 +5,18 @@
 
   <body>
 
-    {% include sidebar.html %}
+    <div class="wrap">
+      {% include sidebar.html %}
 
-    <div class="content container">
-      {{ content }}
+      <div class="content container">
+        {{ content }}
 
-      <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+        <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+      </div>
+
     </div>
+
+    <script src="/public/ryanl.js"></script>
 
   </body>
 </html>

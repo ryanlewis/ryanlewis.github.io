@@ -1,0 +1,104 @@
+$navbar-width: 260px;
+$navbar-anim-duration: 0.2s;
+
+.hamburger {
+  display: none;
+}
+
+.sidebar-nav {
+  position: relative;
+  background: $color-white;
+}
+
+@media (max-width: #{$bp - 1px}) {
+  //.sidebar-nav, .wrap, .content, .hamburger-assist {
+  %anim {
+    -webkit-transition: left $navbar-anim-duration, right $navbar-anim-duration, opacity $navbar-anim-duration;
+    transition: left $navbar-anim-duration, right $navbar-anim-duration, opacity $navbar-anim-duration;
+  }
+
+  .sidebar {
+    margin-bottom: 0;
+  }
+
+  .sidebar-nav {
+    background: #111;
+    width: $navbar-width;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: $navbar-width * -1;
+    z-index: 10;
+    padding: 1.5em;
+    @extend %anim;
+
+    .nav-open & {
+      left: 0;
+    }
+
+    h2, .sidebar-nav-item {
+      color: darken($color-white, 10%);
+      text-align: left;
+      //margin-left: 20px;
+      padding: 0;
+    }
+
+    h2 {
+      margin-top: 1em;
+    }
+
+    .sidebar-nav-item {
+      line-height: 1.25em;
+      font-size: 1.1em;
+      margin-bottom: 0.5em;
+    }
+  }
+
+  .wrap {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: $color-white;
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+    @extend %anim;
+  }
+
+  .hamburger {
+    display: block;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+    background-size: contain;
+    z-index: 100;
+
+    //outline: 5px solid $color-white;
+    //background-color: $color-white;
+  }
+
+  .hamburger-assist {
+    visibility: hidden;
+    cursor: pointer;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-color: $color-black;
+    opacity: 0;
+    @extend %anim;
+
+    .nav-open & {
+      visibility: visible;
+      opacity: 0.6;
+    }
+  }
+}
