@@ -3,10 +3,10 @@
     <div class="sidebar-about">
       <h1>
         <a href="{{ site.baseurl }}">
+          <img src="/public/bearface.svg" alt="Ryan Lewis" width="200" height="200" style="" />
           {{ site.title }}
         </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
     </div>
 
     <nav class="sidebar-nav">
@@ -26,11 +26,9 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <a class="sidebar-nav-item" href="{{ site.twitter.profile }}">Twitter</a>
+      <a class="sidebar-nav-item" href="{{ site.github.profile }}">GitHub</a>
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>

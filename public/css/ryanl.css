@@ -1,0 +1,21 @@
+.sidebar {
+  color: #000;
+  background-color: #fff;
+}
+
+.sidebar a {
+  color: #000;
+}
+
+.sidebar h1 {
+  font-family: 'Share Tech Mono';
+  font-size: 2em;
+  text-align: center;
+  line-height: 2em;
+}
+
+
+.sidebar img {
+  display: block;
+  margin: 0 auto;
+}
