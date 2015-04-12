@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Ryan Lewis
 tagline:          'Blog'
-description:      'Hehe.'
+description:      'Ryan Lewis is a developer primarily working with .NET, Umbraco and other web technologies.'
 url:              http://ryanl.me
 baseurl:          /
 
