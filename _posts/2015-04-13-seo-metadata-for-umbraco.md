@@ -16,14 +16,17 @@ This property editor has been in use at [Epiphany][1] for sometime, so I've pack
 Install-Package Epiphany.SeoMetadata
 ```
 
+More comprehensive documentation is available on [GitHub][2].
+
 I would love to know if you use it and how you get on with it. Please let me know if you have any issues or suggestions by contacting me on [Twitter](https://twitter.com/wpyz) or by submitting an [issue on GitHub](https://github.com/ryanlewis/seo-metadata/issues).
 
 * [Project on GitHub][2]
 * [Package on NuGet][4]
-
+* [Umbraco Project page][5]
 
 
 [1]:http://www.epiphanysearch.co.uk
 [2]:https://github.com/ryanlewis/seo-metadata
 [3]:http://docs.nuget.org/consume/package-manager-console
 [4]:https://www.nuget.org/packages/Epiphany.SeoMetadata/
+[5]:https://our.umbraco.org/projects/backoffice-extensions/seo-metadata-for-umbraco
