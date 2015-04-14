@@ -29,6 +29,15 @@ $bp: 768px;
   }
 }
 
+pre {
+  overflow-x: auto;
+}
+
+pre code {
+  overflow-wrap: normal;
+    white-space: pre;
+}
+
 @import '_sidebar';
 @import '_post-list';
 @import '_mobile-nav';
