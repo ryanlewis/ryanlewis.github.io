@@ -71,6 +71,12 @@ There are some gotchas with forms and T4MVC, so make sure you read the [document
 
 You will have to create an override for each BeginUmbracoForm method [you wish to use][10] however.
 
+## Links
+
+* [UmbracoMapper][1]
+* [Ditto][3]
+* [Zbu.ModelsBuilder][4]
+* [T4MVC][7]
 
 [1]:https://github.com/AndyButland/UmbracoMapper
 [2]:https://medium.com/umbraco-cms/using-umbracomapper-to-fully-embrace-mvc-b004e6755f64
