@@ -1,7 +1,7 @@
 ---
 title: "T4MVC with Umbraco"
 layout: post
-summary: "With other strongly-typed approaches, eliminate magic strings altogether"
+summary: "With other strongly-typed approaches, eliminate literal strings altogether"
 published: true
 ---
 
