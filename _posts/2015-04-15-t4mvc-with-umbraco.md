@@ -1,14 +1,8 @@
 ---
-title: ""
+title: "T4MVC with Umbraco"
 layout: post
 summary: "With other strongly-typed approaches, eliminate magic strings altogether"
 published: true
----
-
----
-title: 'T4MVC with Umbraco'
-layout: post
-summary: 'With other strongly-typed approaches, eliminate magic strings altogether'
 ---
 
 ## Strongly-typed Umbraco
