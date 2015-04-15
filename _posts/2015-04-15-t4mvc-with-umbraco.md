@@ -63,7 +63,7 @@ public static class UmbracoExtensions
 This will allow you to use the BeginUmbracoForm method like below (assuming you have a SurfaceController called `ContactFormController` with an action called `Submit`)
   
 ```c#
-@using (Html.BeginUmbracoForm<ContactFormModel>(MVC.ContactForm.Submit(), FormMethod.Post))
+@using (Html.BeginUmbracoForm(MVC.ContactForm.Submit(), FormMethod.Post))
 {
     @Html.TextBoxFor(m => m.Name)
 }
