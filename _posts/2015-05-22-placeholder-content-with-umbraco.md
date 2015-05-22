@@ -26,16 +26,18 @@ an editor removes all placeholders (a version of what we use is available in thi
 Within our settings node (entitled `ContactSettings`), we had our `CallUsTemplate` richtext property containing placeholders, and two other fields for the phone number and mobile number.
 With Zbu Models Builder and `String.FormatWith`, we provided our view with a new property marrying the two together.
 
-	public IHtmlString CallUsSubstituted
+```c#
+public IHtmlString CallUsSubstituted
+{
+    get
     {
-        get
-        {
-            var callUsTemplate = CallUsTemplate.ToString();
+        var callUsTemplate = CallUsTemplate.ToString();
 
-            var callUsString = callUsTemplate.FormatWith(new { Phone, Mobile });
-            return new HtmlString(callUsString);
-        }
-    } 
+        var callUsString = callUsTemplate.FormatWith(new { Phone, Mobile });
+        return new HtmlString(callUsString);
+    }
+}
+```
 	
 Obtain a copy of your `ContactSettings` node, ensure it's strongly cast to your Models Builder object, and you get your expected content.
 
