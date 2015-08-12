@@ -62,7 +62,7 @@ By default Hyde ships with a sidebar that affixes it's content to the bottom of 
 
 Hyde has two branches, but only one is used for active development.
 
-- `master` for development.  **All pull requests should be to submitted against `master`.**
+- `master` for development.  **All pull requests should be submitted against `master`.**
 - `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
 
 
