@@ -33,3 +33,9 @@ hamburger.addEventListener('click', function() {
 hamAssist.addEventListener('click', function() {
   body.removeClass('nav-open');
 });
+
+// enforce HTTPS
+var h = window.location.host;
+var local = h.indexOf('localhost') > -1 || h.indexOf('127.0.0.1') > -1;
+if (window.location.protocol !== "https:" && !local)
+  window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
