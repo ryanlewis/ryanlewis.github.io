@@ -1,7 +1,7 @@
 ---
 title: 'Hello world'
 layout: post
-summary: 'Obligatory first post.'
+summary: 'Obligatory first post'
 ---
 
 The obligatory first post.

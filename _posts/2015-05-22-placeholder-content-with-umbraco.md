@@ -1,7 +1,7 @@
 ---
 title: "Placeholder content with Umbraco"
 layout: post
-summary: "Handling placeholder content within a page."
+summary: "Handling placeholder content within a page"
 published: true
 ---
 
