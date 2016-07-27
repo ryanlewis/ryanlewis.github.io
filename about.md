@@ -3,9 +3,13 @@ layout: page
 title: About
 ---
 
-My name is Ryan Lewis. I am a husband, father and a developer based at [Epiphany](http://www.epiphanysearch.co.uk). I primarily work with .NET and other web-based technologies. I'm a Level 2 certified Umbraco developer.
+My name is Ryan Lewis. I am a husband, father and a Contract Developer. I primarily work with JavaScript, ReactJS, .NET and other web-based technologies. I'm a Level 2 certified Umbraco developer.
 
-You can contact me on [Twitter](http://twitter.com/wpyz) or checkout my [GitHub](http://github.com/ryanlewis).
+I previously worked at [Epiphany Search](http://www.epiphanysearch.co.uk), a leading digital agency based in Leeds. While there I have worked with many household brands on large public facing websites.
+
+* [LinkedIn](https://www.linkedin.com/in/ryan-lewis)
+* [Twitter](https://twitter.com/wpyz)
+* [GitHub](https://github.com/ryanlewis).
 
 I'm not the guy that makes music with Macklemore &ndash; we just share a good name.
 
