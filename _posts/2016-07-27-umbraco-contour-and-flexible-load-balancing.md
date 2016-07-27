@@ -1,7 +1,7 @@
 ---
-title: Umbraco Contour in Flexible Load Balanced environments
+title: Umbraco Contour 3 in Flexible Load Balanced environments
 layout: post
-summary: Have Umbraco Contour work correctly in modern Umbraco load-balanced environments
+summary: Have legacy Umbraco Contour installations work correctly in modern Umbraco load-balanced environments
 ---
 
 I didn't want to go a whole year without updating this site, so here's a little note on a problem that I resolved this morning.
@@ -52,7 +52,6 @@ public class ContourFormCacheRefresher : JsonCacheRefresherBase<ContourFormCache
     public override void Refresh(string json)
     {
         // ignore the payload for now - we're just wiping the form cache completely
-        LogHelper.Info<ContourFormCacheRefresher>(() => "Resaving Contour form because of distributed cache instruction");
         Umbraco.Forms.Core.Services.CacheService.ClearAllCache();
     }
 
