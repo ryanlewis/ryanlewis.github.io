@@ -72,3 +72,5 @@ public class ContourFormCacheRefresher : JsonCacheRefresherBase<ContourFormCache
 ```
 
 This can be improved, so that only the cached items are cleared from the cache instead of it all being completely nuked, but this works for now, and form updates are only a semi-regular occurrence.
+
+This code is also available in a [gist](https://gist.github.com/ryanlewis/3b3266316765caa9c74be981cf9dcd2a).
